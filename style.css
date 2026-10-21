@@ -1,0 +1,55 @@
+html {
+    background-color: #31AAA9;
+}
+
+body {
+    background-color: #F8E0A4;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #6C1A1A;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+} 
+
+select {
+    background-color: #6C1A1A;
+    color: white;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: #6C1A1A;
+    font-family: monospace;
+    background-color: wheat;
+    border: 2px dashed white;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    color: #6C1A1A;
+    font-family: monospace;
+    background-color: wheat;
+    border: 1px dashed white;
+    text-align: left;
+    font-size: 25px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#remaining > div{
+    display: flex;
+    gap: 6px;
+    font-size: 14px;
+}

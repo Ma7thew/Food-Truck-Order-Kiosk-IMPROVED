@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Video Game Loot</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <script defer src='main.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <button id="add_item">Add Item</button>
+            <button id="remove_item">Remove Item</button>
+            <button id="merge_vault">Merge Items</button>
+            <button id="mystery_box">Mystery Items</button>
+            <label for="rarity">Choose a rarity:</label>
+            <select name="htmlRarity" id="rarity_selector">
+                <option value="All">All</option>
+                <option value="Legendary">Legendary</option>
+                <option value="Rare">Rare</option>
+                <option value="Common">Common</option>
+            </select>
+            <div id="remaining">
+                <div>(Item runs out after <div id="numberAmount"> 3</div> clicks)</div>
+            </div>
+        </div>
+
+        <div>
+            <h1>Inventory</h1>
+            <ul id="html_inv"></ul>
+        </div>
+
+        <div>
+            <p id="feedback_inv"></p>
+        </div>
+<hr>
+        <div>
+            <h2>Vault Inventory</h2>
+            <ul id="vault_inv"></ul>
+        </div>
+
+        <div>
+            <ul id="feedback_vault"></ul>
+        </div>
+<hr>
+        <div>
+            <h2>Statistics</h2>
+            <p>Items <span id="item-count"></span></p>
+            <p>Total Value: <span id="total-value"></span> pts</p>
+        </div>
+<hr>
+        <div>
+            <h2>Mystery Items</h2>
+            <p id="feedback_mystery"></p>
+        </div>
+    </div>
+</body>
+</html>
